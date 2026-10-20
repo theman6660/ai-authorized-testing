@@ -1,0 +1,33 @@
+# Credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Browser authentication state
+*storage-state*.json
+*storageState*.json
+*auth-state*.json
+cookies*.json
+cookies*.txt
+.auth/
+playwright/.auth/
+browser-profile/
+
+# Private authorization evidence and raw test data
+private/
+local/
+artifacts/
+screenshots/
+logs/
+downloads/
+
+# Local tooling
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
